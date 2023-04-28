@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import Minutes from "./component/Minutes";
 // import Km from "./component/Km";
 // import Mgdl from "./component/Mgdl";
@@ -65,7 +65,7 @@ import Minutes from "./component/Minutes";
 // }
 
 function App() {
-  return null;
+  return <></>;
 }
 
 export default App;
