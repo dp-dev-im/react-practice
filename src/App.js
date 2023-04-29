@@ -1,5 +1,8 @@
-import { useEffect, useState } from "react";
+// import { useEffect, useState } from "react";
 import Minutes from "./component/Minutes";
+import Cointracker from "./component/Cointracker";
+import { BrowserRouter } from "react-router-dom";
+import CoinList from "./component/Coinlist";
 // import Km from "./component/Km";
 // import Mgdl from "./component/Mgdl";
 // import styled from "styled-components";
@@ -65,7 +68,14 @@ import Minutes from "./component/Minutes";
 // }
 
 function App() {
-  return <></>;
+  return (
+    <>
+      <BrowserRouter>
+        <Cointracker />
+        {/* <CoinList /> */}
+      </BrowserRouter>
+    </>
+  );
 }
 
 export default App;

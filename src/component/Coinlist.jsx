@@ -1,5 +1,4 @@
 import { useEffect, useState } from "react";
-import Minutes from "./component/Minutes";
 // import Km from "./component/Km";
 // import Mgdl from "./component/Mgdl";
 // import styled from "styled-components";
@@ -182,7 +181,6 @@ function CoinList() {
       </>
       <button onClick={onReset}>Reset</button>
       <button onClick={onFlip}>Flip</button>
-      <Minutes />
     </>
   );
 }
