@@ -1,8 +1,5 @@
 // import { useEffect, useState } from "react";
-import Minutes from "./component/Minutes";
-import Cointracker from "./component/Cointracker";
-import { BrowserRouter } from "react-router-dom";
-import CoinList from "./component/Coinlist";
+
 // import Km from "./component/Km";
 // import Mgdl from "./component/Mgdl";
 // import styled from "styled-components";
@@ -67,13 +64,11 @@ import CoinList from "./component/Coinlist";
 //   );
 // }
 
+// App -> Router.jsx
 function App() {
   return (
     <>
-      <BrowserRouter>
-        <Cointracker />
-        {/* <CoinList /> */}
-      </BrowserRouter>
+        {/* <Homemovie /> */}
     </>
   );
 }
